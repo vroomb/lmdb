@@ -9,6 +9,9 @@ mdb_drop
 *.lo
 *.[ao]
 *.so
+*.so.*
+*.pc
+*.pch
 *.exe
 *[~#]
 *.bak

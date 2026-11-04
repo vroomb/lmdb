@@ -28,7 +28,7 @@ LDFLAGS = $(THREADS)
 LDLIBS	= 
 SOLIBS	= 
 SOEXT	= .so
-LDL		= -ldl
+#LDL	= -ldl
 
 LIBVER	= 1
 ABIVER	= 0
