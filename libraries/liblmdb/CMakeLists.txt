@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.19)
 project(lmdb VERSION 1.0.2 LANGUAGES C)
 
-add_library(lmdb SHARED
+add_library(lmdb STATIC
 	"mdb.c"
 	"midl.c"
 	"module.c"
